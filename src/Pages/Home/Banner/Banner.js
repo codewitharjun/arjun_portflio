@@ -9,9 +9,8 @@ const Banner = () => {
         <div><img src={bannerPic} alt=""/></div>
         <div className="text-info d-flex align-items-center my-5 justify-content-center">
           <div>
-            <h3>Hi I'm <span className="text-danger">Arjun Roy</span></h3>
-            <h1>Web Developer</h1>
-            {/* <a className="text-decoration-none btn-warning mt-4" href='https://drive.google.com/uc?export=download&id=18Lp2w_sF_qkuUjVlOHLaOB5-7J7dy7kW' size="lg">My Resume</a> */}
+            <h1>Hi I'm <span className="text-danger">Arjun Roy</span></h1>
+            <h4>A Full Stack Web Developer experienced in MERN stack.</h4>
             <Button href='https://drive.google.com/uc?export=download&id=18Lp2w_sF_qkuUjVlOHLaOB5-7J7dy7kW' variant="warning" size="lg" className="mt-4">My Resume</Button>
           </div>
         </div>

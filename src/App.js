@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Pages/Home/Header/Header';
+import Footer from './Pages/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
 import Home from './Pages/Home/Home/Home';
 import Blog from './Pages/Home/Blog/Blog';
@@ -25,6 +26,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
     </div>
   );
