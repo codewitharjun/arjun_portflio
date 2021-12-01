@@ -63,7 +63,7 @@ export const Contact = () => {
                           {/* <input type="text" name="date" disabled placeholder={date} value={date} /> */}
                           <Button type="submit" variant="warning">Message Mee</Button>
                           <br/>
-                          <br/>
+                          <br/>     
                           <br/>
                       </form>
                   </div>
